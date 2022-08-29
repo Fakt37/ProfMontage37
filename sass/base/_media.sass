@@ -1,0 +1,259 @@
+
+@media ( max-width: 1440px )
+    .example
+        &__next
+            right: 6%
+        &__prev
+            left: 6%
+@media ( max-width: 1345px )
+    .example
+        &__next
+            right: 4%
+        &__prev
+            left: 4%
+@media ( max-width: 1280px )
+    .example
+        &__next
+            right: 1%
+        &__prev
+            left: 1%
+@media ( max-width: 1210px )
+    .example
+        &__next
+            display: none
+        &__prev
+            display: none
+@media screen and ( max-width:  991px)
+    .header
+        &__logo
+            font-size: 25px
+            span
+                font-size: 32px
+        &__official
+            font-size: 14px
+        &__phone
+            font-size: 12px
+    .button
+        font-size: 12px
+        padding: 10px
+    .nav
+        &__menu
+            &_item
+                font-size: 16px
+    .promo
+        &__advantage
+            font-size: 12px
+    .services
+        &__box
+            justify-content: space-around
+    .work
+        &__box
+            justify-content: space-around
+        &__item
+            margin-bottom: 40px
+    .button
+        &_services
+            width: 280px
+            font-size: 16px
+    .title
+        font-size: 24px
+@media (max-width: 899px)
+    .title-we
+        display: none
+    .title-yellow
+        display: none
+    .title-black
+        display: none
+    .we
+        &__inline
+            flex-direction: column
+        &__company
+            font-size: 18px
+            margin-bottom: 50px
+        &__wrapper
+            margin-top: 50px
+        &__items
+            padding: 30px 0
+            justify-content: center
+            text-align: center
+            width: 100%
+            height: 100px
+            font-size: 20px
+            border: none
+            background-color: #84ad13
+            color: #fff
+        &__images
+            position: absolute
+            width: auto
+            svg
+                width: 45px
+                height: 55px
+            &-main
+                width: 60px
+                height: 60px
+                border: 2px solid #000
+                background: #fff
+                border-radius: 100%
+                &::before, &::after
+                    display: none    
+            &-checkmark, &-cross
+                display: none
+        .title
+            display: flex
+    .other
+        &__items
+            padding: 30px 0
+            justify-content: center
+            text-align: center
+            width: 100%
+            height: 100px
+            font-size: 20px
+            border: none
+            background-color: #d24444
+            color: #fff
+@media (max-width: 767px)
+    .button
+        cursor: none
+        &_consultation
+            font-size: 18px
+    .title
+        &::after, &::before
+            width: 10%
+        &_left
+            text-align: center
+    .header
+        &__official
+            display: none
+        &__contacts
+            justify-content: flex-end
+    .promo
+        padding-top: 60px
+    .nav
+        position: absolute
+        margin: 0
+        width: 100%
+        top: 0
+        right: 0
+        border-radius: 0
+        &__menu
+            position: fixed
+            flex-direction: column
+            justify-content: flex-start
+            padding: 20px 15px
+            top: 0
+            left: -100%
+            margin-top: 0
+            width: 50%
+            height: 100vh
+            background: rgba(0, 0, 0, 0.8)
+            transition: 0.6s all
+            &_active
+                left: 0
+            &_item
+                margin: 20px 0
+            &_link
+                font-size: 20px
+                img
+                    width: 25px
+    .hamburger
+        display: block
+        position: absolute
+        right: 10px
+        top: 50%
+        transform: translateY(-50%)
+        width: 22px
+        height: 12px
+        span
+            display: block
+            height: 2px
+            width: 100%
+            background-color: #fff
+            margin-bottom: 2px
+            transition: 0.5s all
+        &_active
+            span
+                margin-bottom: -2px
+                &:nth-child(1)
+                    transform: translateY(3px) rotate(-45deg)
+                &:nth-child(2)
+                    display: none
+                &:nth-child(3)
+                    transform: translateY(3px) rotate(45deg)
+    .services
+        &__box
+            justify-content: space-around
+    .consultation
+        min-height: 450px
+        padding: 50px 10px
+        &__descr
+            font-size: 16px
+            text-align: center
+
+    .feed-form
+        width: 100%
+    .example
+        &__prev, &__next
+            display: none
+@media ( max-width:  576px)
+    .header
+        flex-direction: column
+        &__logo
+            font-size: 40px
+            span
+                font-size: 42px
+        &__contacts
+            align-items: center
+            flex-direction: column
+            margin-top: 15px
+        &__phone
+            font-size: 18px               
+    .button
+        &_header
+            margin-top: 10px
+            width: 100%
+            font-size: 18px
+            font-weight: 700
+        &_main
+            width: 100%
+            font-size: 18px
+            font-weight: 700
+    .nav
+        &__menu
+            &_item
+                font-size: 14px
+            &_link
+                img
+                    width: 18px
+    .promo
+        &__wrapper
+            width: 100%
+        &__header
+            margin: 0
+            font-size: 34px
+            width: 100%
+            span
+                font-size: 54px
+        &__subheader
+            font-size: 24px
+        &__advantages
+            justify-content: center
+            flex-wrap: wrap
+        &__advantage
+            font-size: 16px
+            margin-bottom: 20px
+    .contacts
+        &__info
+            padding: 40px
+        &__social
+            svg
+                width: 40px
+                height: 40px
+    .modal
+        &__content
+            padding: 22px 10px 22px 10px
+        &__close
+            top: 10px
+            right: 10px
+    
+
+            

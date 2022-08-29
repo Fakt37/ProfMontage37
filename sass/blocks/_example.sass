@@ -1,0 +1,42 @@
+.example
+    position: relative
+    padding: 80px 0 50px 0
+    &__slider
+        display: flex
+        justify-content: space-between
+        align-items: center
+        margin-top: 50px
+        button
+            border: none
+            background: #fff
+        &_img
+            display: block
+            margin: 0 auto
+            img
+                height: 500px
+                max-height: 500px
+                max-width: 340px
+                object-fit: cover
+    &__prev, &__next
+        position: absolute
+        top: 50%
+        left: 9%
+        transform: translateY(-50%)
+        border: none
+        background-color: #fff
+    &__next
+        right: 9%
+        left: auto
+        svg
+            width: 50px
+            height: 50px
+            fill: $main-color
+    &__prev
+        svg
+            width: 50px
+            height: 50px
+            fill: $main-color
+.tns-item
+    img
+        display: block
+        margin: 0 auto

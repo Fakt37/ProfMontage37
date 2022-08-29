@@ -1,0 +1,73 @@
+.title
+    display: flex
+    align-items: center
+    justify-content: center
+    font-weight: 700
+    font-size: 30px
+    color: #F7C600
+    text-transform: uppercase
+    margin: 0
+    &::after
+        content: ''
+        margin-left: 15px
+        height: 2px
+        width: 80px
+        background: #F7C600
+    &::before
+        content: ''
+        margin-right: 15px
+        height: 2px
+        width: 80px
+        background: #F7C600
+    &_left
+        color: #fff
+        justify-content: start
+        &::after, &::before
+            display: none
+    &-we
+        display: flex
+        align-items: center
+        justify-content: center
+        font-weight: 700
+        font-size: 30px
+        color: #F7C600
+        text-transform: uppercase
+        margin: 0
+        position: relative
+        width: 100%
+        text-align: center
+        &::before
+            content: ''
+            position: absolute
+            left: 28%
+            top: 15px
+            margin-right: 0
+            z-index: 1
+            height: 2px
+            width: 80px
+            background: #000
+        &::after
+            content: ''
+            position: absolute
+            left: 59%
+            top: 15px
+            margin-left: 0
+            z-index: 1
+            height: 2px
+            width: 80px
+            background: #F7C600
+    &-yellow
+        height: 100%
+        position: absolute
+        right: 50%
+        span
+            color: black
+            
+    &-black
+        height: 100%
+        position: absolute
+        left: 50%
+        span
+            color: #F7C600
+            width:100%
+

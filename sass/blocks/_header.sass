@@ -1,0 +1,80 @@
+.header
+    display: flex
+    justify-content: space-between
+    align-items: center
+    flex-wrap: wrap
+    &__logo
+        font-weight: 400
+        font-size: 32px
+        border-top: 1px solid #F7C600
+        border-bottom: 1px solid #F7C600
+        padding: 5px 0
+        text-decoration: none
+        color: #FFFFFF
+        span 
+            font-family: 'Rancho'
+            font-weight: 400
+            font-size: 42px
+            color: #F7C600
+    &__official
+        font-weight: 400
+        font-size: 18px
+        color: #FFFFFF
+    &__contacts
+        display: flex
+        &_wrapper
+            display: flex
+            flex-direction: column
+            align-items: center
+            justify-content: end
+            margin-right: 15px
+    &__phone
+        display: flex
+        align-items: center
+        text-decoration: none
+        font-weight: 500
+        font-size: 18px
+        color: #FFFFFF
+        &_img
+            width: 20px
+            height: 20px
+            margin-right: 10px
+            fill: white
+    &__schedule
+        display: flex
+        align-items: center
+        margin-top: 5px 
+        font-weight: 400
+        font-size: 12px
+        color: #FFFFFF
+        &_online
+            width: 10px
+            height: 10px
+            background: #40CF29
+            border-radius: 50%
+            margin-right: 10px
+.nav
+    background: rgba(0, 0, 0, 0.55)
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)
+    border-radius: 10px
+    padding: 5px 25px
+    margin-top: 20px
+    min-height: 40px
+    &__menu
+        display: flex
+        justify-content: space-between
+        align-items: center
+        margin: 0 auto
+        list-style-type: none
+        &_item
+            font-weight: 500
+            font-size: 18px 
+        &_link
+            color: #fff
+            text-decoration: none
+            svg
+                fill: white
+                width: 30px
+                height: 30px
+.hamburger
+    display: none
