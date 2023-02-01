@@ -88,8 +88,8 @@ window.addEventListener('DOMContentLoaded', () => {
     showModalByTime('.modal__bell', 60000);
 
     //Отправка заявки в Телеграм
-    const token = "5196139296:AAHWZw66GaLKQZtr24fxux1Vk_73eFe-WLI",
-          chatId = "-762940993",
+    const token = "", //Токен бота
+          chatId = "", // ID чата
           urlAPI = `https://api.telegram.org/bot${token}/sendMessage`;
 
 
